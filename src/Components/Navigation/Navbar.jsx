@@ -15,9 +15,9 @@ const Navbar = () => {
         // all navigation links here
         <>
             <NavLink className='nav' to='/'>Home</NavLink>
-            <NavLink className='nav' to='/df'>Blog</NavLink>
-            <NavLink className='nav' to='/f'>Contact Us</NavLink>
-            <NavLink className='nav' to='/f'>About</NavLink>
+            <NavLink className='nav' to='/blog'>Blog</NavLink>
+            <NavLink className='nav' to='/contactus'>Contact Us</NavLink>
+            <NavLink className='nav' to='/about'>About</NavLink>
         </>
     return (
         <div>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <a className="btn btn-ghost text-xl">daisyUI</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu  menu-horizontal">
+                    <ul className="menu gap-3  menu-horizontal">
                         {links}
                     </ul>
                 </div>
